@@ -400,6 +400,7 @@ nav a:hover{
     }
     .btn{
         font-size: 4vw;
+        width: 90%;
     }
 }
 @media(max-width:415px){
@@ -431,9 +432,22 @@ nav a:hover{
         font-size: 10vw;
     }
     .videos-section > h1{
-        font-size: 12vw;
+        font-size: 10vw;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
     }
     .sidebar{
         width: 100%;
+    }
+    .btn{
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .video-list{
+        align-items: center;
     }
 }
