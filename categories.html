@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Spidey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>CREATIVE SPIDEY</h1>
+            <ul>
+                <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnMobile"><a href="tutorials.html">TUTORIALS</a></li>
+                <li class="hideOnMobile"><a href="categories.html">CATEGORIES</a></li>
+                <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
+                <li onclick=showSidebar() class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html" class="white">HOME</a></li>
+                <li><a href="tutorials.html" class="white">TUTORIALS</a></li>
+                <li><a href="categories.html" class="white">CATEGORIES</a></li>
+                <li><a href="about.html" class="white">ABOUT</a></li>
+                <li><a href="contact.html" class="white">CONTACT</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="categories-section">
+    <h1>CATEGORIES</h1>
+    <div class="categories">
+        
+        <button class="btn">Cardboard Crafts ▼</button>
+            <div class="video-list">
+                <a href="https://www.youtube.com/watch?v=NIPkABWSClQ&t=432s" target="_blank" class="catovid">
+                    <img src="images/thumbnail8.webp" alt="thumbnail">
+                    <span>How to make an Attack On Titan Sword.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail6.webp" alt="thumbnail">
+                    <span>How to make Ben 10 omnitrix.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail4.jpg" alt="thumbnail">
+                    <span>How to make a Nerf gun that shoots Nerf darts.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail3.jpg" alt="thumbnail">
+                    <span>Interesting things to do when you are bored.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail2.jpg" alt="thumbnail">
+                    <span>How to make a medal.</span>
+                </a>
+            </div>
+
+        <button class="btn">Superhero Crafts ▼</button>
+            <div class="video-list">
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail6.webp" alt="thumbnail">
+                    <span>How to make Ben 10 omnitrix.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail5.jpg" alt="thumbnail">
+                    <span>How to make fully functional Spider-Man web shooters.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail8.webp" alt="thumbnail">
+                    <span>How to make an Attack On Titan Sword.</span>
+                </a>
+            </div>
+
+        <button class="btn">Recycle Crafts ▼</button>
+            <div class="video-list">
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail9.webp" alt="thumbnail">
+                    <span>how to make a Knife from shampoo bottle.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail7.webp" alt="thumbnail">
+                    <span>How to make Nerf darts at home.</span>
+                </a>
+            </div>
+        <button class="btn">Guns ▼</button>
+            <div class="video-list">
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail4.jpg" alt="thumbnail">
+                    <span>How to make a Nerf gun at home.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail5.jpg" alt="thumbnail">
+                    <span>How to make fully functional Spider-Man web shooters.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail1.jpg" alt="thumbnail">
+                    <span>How to make a miniature Gun.</span>
+                </a>
+                <a href="#" target="_blank" class="catovid">
+                    <img src="images/thumbnail7.webp" alt="thumbnail">
+                    <span>How to make Nerf darts at home.</span>
+                </a>
+            </div>
+
+    </div>
+</section>
+
+    <footer>
+
+        <h2>CREATIVE SPIDEY</h2>
+
+        <p>Learn • Create • Inspire</p>
+
+        <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        </div>
+
+        <a class="channel-link" href="https://www.youtube.com/@creativespidey6816" target="_blank">📺 YouTube</a>
+
+        <p>© 2026 Creative Spidey. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
