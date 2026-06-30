@@ -11,6 +11,11 @@
 body{
     font-family:Arial, sans-serif;
 }
+.cursive{
+  font-family: "Style Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
 nav{
     display:flex;
     justify-content:space-between;
@@ -104,11 +109,13 @@ nav a:hover{
 }
 
 .hero-text p{
-    font-size:30px;
-    font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px;
+    /* font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
     margin-bottom:10px;
     color: #00E5FF;
+    font-style: italic;
+    letter-spacing: 3px;
 }
 .hero-text{
     opacity: 0;
